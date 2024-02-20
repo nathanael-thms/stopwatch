@@ -1,10 +1,5 @@
-  .Stopwatch {
-   
-        /* position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-top: -50px;
-        margin-left: -50px; */
+@media (min-width: 1287px){
+    .Stopwatch {
         margin-left: auto;
         margin-right: auto;
         margin-top: auto;
@@ -13,13 +8,6 @@
         height: 50%;
         font-size: 200px;
     }
-    
-
-   /* button {
-        height: 50px;
-        width: 55%;
-    }*/
-
     #playButton{
         background-color: #00ff15;
         width: 45%;
@@ -35,6 +23,86 @@
         width: 45%;
         height: 50px;
     }
+}
+@media (min-height: 556px){
+    .Stopwatch {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 50%;
+        height: 50%;
+        font-size: 200px;
+    }
+    #playButton{
+        background-color: #00ff15;
+        width: 45%;
+        height: 50px;
+    }
+
+    #pauseButton{
+        background-color: #ff0000;
+        width: 45%;
+        height: 50px;
+    }
+    #resetButton {
+        width: 45%;
+        height: 50px;
+    }
+}
+@media (max-width: 1287px){
+    .Stopwatch {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 50%;
+        height: 50%;
+        font-size: 167px;
+    }
+    #playButton{
+        background-color: #00ff15;
+        width: 45%;
+        height: 50px;
+    }
+
+    #pauseButton{
+        background-color: #ff0000;
+        width: 45%;
+        height: 50px;
+    }
+    #resetButton {
+        width: 45%;
+        height: 50px;
+    }
+}
+@media (max-height: 556px){
+    .Stopwatch {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 50%;
+        height: 50%;
+        font-size: 120px;
+    }
+    #playButton{
+        background-color: #00ff15;
+        width: 45%;
+        height: 50px;
+    }
+
+    #pauseButton{
+        background-color: #ff0000;
+        width: 45%;
+        height: 50px;
+    }
+    #resetButton {
+        width: 45%;
+        height: 50px;
+    }
+}
+
     h1,h2{
         text-align: center;
     }
