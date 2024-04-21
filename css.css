@@ -104,7 +104,18 @@
     }
 }
 
-    h1,h2{
+#uncompatible {
+    display: none;
+}
+  @media (max-width:516px),(max-height:344px){
+    #website{
+      display: none;
+    }
+    #uncompatible{
+      display: block;
+    }
+}
+h1,h2{
         text-align: center;
     }
     body{
